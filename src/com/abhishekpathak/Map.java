@@ -4,9 +4,9 @@ import java.awt.*;
 
 public class Map {
 
-    private int map_array[][];
-    private int collider_width;
-    private int collider_height;
+    int map_array[][];
+    int collider_width;
+    int collider_height;
 
     Map(int rows, int columns) {
         map_array = new int[rows][columns];
