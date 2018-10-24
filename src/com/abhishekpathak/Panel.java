@@ -1,12 +1,12 @@
 package com.abhishekpathak;
 
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.File;
 
 
 public class Panel extends JPanel implements KeyListener, ActionListener {
@@ -79,6 +79,19 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
                 paddle_x -= 20;
             }
         }
+        if(e.getKeyCode() == KeyEvent.VK_ENTER){
+            if(!play){
+                paddle_x = 400;
+                paddle_y = 520;
+                ball_x = 100;
+                ball_y = 250;
+                ball_direction_y = 1;
+                ball_direction_x = 1;
+                score = "0";
+                map = new Map(3,15);
+            }
+        }
+
         play = true;
     }
     @Override
@@ -88,6 +101,7 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
 
             if((new Rectangle(ball_x,ball_y, BALL_WIDTH, BALL_HEIGHT).intersects(new Rectangle(paddle_x, paddle_y, PADDLE_WIDTH, PADDLE_HEIGHT)))){
                 ball_direction_y = -ball_direction_y;
+
             }
 
             A:for(int i = 0; i <  map.map_array.length;i++){
@@ -109,6 +123,7 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
                             }else{
                                 ball_direction_y = - ball_direction_y;
                             }
+
                             break A;
                         }
                     }
@@ -131,6 +146,8 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
             if (ball_y < 0) {
                 ball_direction_y = -ball_direction_y;
             }
+
+
         }
         repaint();
 
@@ -159,7 +176,19 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
         g.setFont(new Font("monospace", Font.BOLD,30));
         g.drawString(score,700,50);
 
+        if(ball_y >GamePlay.HEIGHT_FRAME){
+            g.setColor(Color.WHITE);
+            g.setFont(new Font("monospace", Font.BOLD,35));
+            g.drawString("You have Scored : "+score,200,300);
+            g.setFont(new Font("monospace", Font.BOLD,30));
+            g.drawString("Press Enter To Play Again !!!",200,350);
+            play = false;
+
+        }
+
+
         g.dispose();
+
 
     }
 
