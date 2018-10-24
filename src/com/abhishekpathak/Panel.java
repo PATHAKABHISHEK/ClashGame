@@ -1,6 +1,6 @@
 package com.abhishekpathak;
 
-import javax.management.monitor.GaugeMonitor;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -36,7 +36,9 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
 
     // panel Constructor
 
+    private Map map;
     Panel(){
+        map = new Map(3,7);
         addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
@@ -105,6 +107,8 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
         // panel is painted
         g.setColor(Color.DARK_GRAY);
         g.fillRect(0,0, GamePlay.WIDTH_FRAME,GamePlay.HEIGHT_FRAME);
+
+        map.draw((Graphics2D)g);
 
         // painting paddle
         g.setColor(Color.RED);
