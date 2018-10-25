@@ -114,7 +114,7 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
 
                         if(new Rectangle(colliderx, collidery, colliderwidth, colliderheight).intersects(new Rectangle(ball_x, ball_y, BALL_WIDTH, BALL_HEIGHT))){
                             int int_score;
-                            int_score = Integer.parseInt(score) + 1;
+                            int_score = Integer.parseInt(score) + 5;
                             score = String.valueOf(int_score);
                             map.map_array[i][j] = 0;
 
