@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/GamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/GamePlay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Login$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Map.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Panel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/abhishekpathak/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhishekpathak/Login.java" afterDir="false" />
@@ -38,6 +39,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="6" />
+          <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.121" value="1" />
           <entry key="project.open.time.122" value="1" />
           <entry key="project.open.time.127" value="1" />
@@ -45,7 +47,7 @@
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.80" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -84,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/DatabaseConnection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -92,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
+            <state relative-caret-position="2875">
               <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="875">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -113,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="575">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Sound.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="1075">
               <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
             </state>
           </provider>
@@ -188,8 +190,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,16 +332,18 @@
       <workItem from="1540462180258" duration="10896000" />
       <workItem from="1540477142293" duration="5373000" />
       <workItem from="1540527996543" duration="1211000" />
+      <workItem from="1540639514582" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51896000" />
+    <option name="totallyTimeSpent" value="52139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -400,19 +404,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java">
+    <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/DatabaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="50">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
+        <state relative-caret-position="2875">
           <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -422,22 +423,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="875">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Sound.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="1075">
           <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/DatabaseConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
