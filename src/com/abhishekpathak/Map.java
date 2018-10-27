@@ -23,27 +23,22 @@ public class Map {
 
     }
 
-    public void draw(Graphics2D g){
-        for(int i = 0; i < map_array.length; i++){
-            for (int j =0; j < map_array[0].length; j++){
-                if(map_array[i][j] > 0){
+    public void draw(Graphics2D g) {
+        for (int i = 0; i < map_array.length; i++) {
+            for (int j = 0; j < map_array[0].length; j++) {
+                if (map_array[i][j] > 0) {
                     g.setColor(Color.green);
-                    g.fillRect(j*collider_width +80, i*collider_height + 60,collider_width, collider_height);
+                    g.fillRect(j * collider_width + 80, i * collider_height + 60, collider_width, collider_height);
 
                     g.setStroke(new BasicStroke(3));
                     g.setColor(Color.ORANGE);
-                    g.drawRect(j*collider_width +80, i*collider_height + 60,collider_width, collider_height);
+                    g.drawRect(j * collider_width + 80, i * collider_height + 60, collider_width, collider_height);
 
                 }
 
 
-
             }
+
+
         }
-
-
-    }
-
-
-
-}
+    }}

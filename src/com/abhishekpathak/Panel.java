@@ -17,6 +17,7 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
     // paddle x and y positions
     private int paddle_x = 400;
     private int paddle_y = 520;
+    private String name;
 
 
     // paddle width and height
@@ -39,7 +40,7 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
     // panel Constructor
 
     private Map map;
-    Panel(){
+    Panel(String name){
         map = new Map(3,15);
         JLabel score = new JLabel("0");
         score.setForeground(Color.red);
@@ -50,7 +51,7 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
         setFocusTraversalKeysEnabled(false);
         timer = new Timer(delay,this);
         timer.start();
-
+        this.name = name;
     }
 
 
@@ -175,6 +176,12 @@ public class Panel extends JPanel implements KeyListener, ActionListener {
         g.setColor(Color.ORANGE);
         g.setFont(new Font("monospace", Font.BOLD,30));
         g.drawString(score,700,50);
+
+        // name
+        g.setColor(Color.ORANGE);
+        g.setFont(new Font("monospace", Font.BOLD, 30));
+        g.drawString(name,100,50);
+
 
         if(ball_y >GamePlay.HEIGHT_FRAME){
             g.setColor(Color.WHITE);

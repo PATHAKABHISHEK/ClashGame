@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d191056e-fc61-4bd9-a86b-fddceed68886" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/GamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/GamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClashGame/com/abhishekpathak/Panel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abhishekpathak/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhishekpathak/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/abhishekpathak/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhishekpathak/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/abhishekpathak/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/abhishekpathak/Panel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,37 +37,39 @@
     <session id="1385779430">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.121" value="1" />
           <entry key="project.open.time.122" value="1" />
+          <entry key="project.open.time.127" value="1" />
           <entry key="project.open.time.156" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="13" />
+          <entry key="java" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11630" />
+          <entry key="java" value="13896" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11630" />
+          <entry key="JAVA" value="13896" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -72,11 +80,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/DatabaseConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="50">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Panel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,17 +104,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="129">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Panel.java">
+        <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-748">
-              <caret line="11" column="72" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="72" />
+            <state relative-caret-position="275">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,14 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Login.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Sound.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1600">
-              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -141,11 +155,13 @@
         <option value="$PROJECT_DIR$/src/com/abhishekpathak/StartFrame.java" />
         <option value="$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.form" />
         <option value="$PROJECT_DIR$/src/com/abhishekpathak/Paddle.java" />
-        <option value="$PROJECT_DIR$/src/com/abhishekpathak/Map.java" />
         <option value="$PROJECT_DIR$/src/com/abhishekpathak/TimeDeductor.java" />
+        <option value="$PROJECT_DIR$/src/com/abhishekpathak/DatabaseConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/abhishekpathak/Login.java" />
         <option value="$PROJECT_DIR$/src/com/abhishekpathak/Panel.java" />
         <option value="$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java" />
-        <option value="$PROJECT_DIR$/src/com/abhishekpathak/Login.java" />
+        <option value="$PROJECT_DIR$/src/com/abhishekpathak/Sound.java" />
+        <option value="$PROJECT_DIR$/src/com/abhishekpathak/Map.java" />
       </list>
     </option>
   </component>
@@ -161,7 +177,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -172,6 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -195,7 +212,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +219,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="309" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540469265190" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540485797242" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -311,18 +327,19 @@
       <workItem from="1540360944772" duration="1499000" />
       <workItem from="1540362826640" duration="22973000" />
       <workItem from="1540388034013" duration="8112000" />
-      <workItem from="1540462180258" duration="6753000" />
+      <workItem from="1540462180258" duration="10896000" />
+      <workItem from="1540477142293" duration="5373000" />
+      <workItem from="1540527996543" duration="1211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41169000" />
+    <option name="totallyTimeSpent" value="51896000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -331,7 +348,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3846154" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3846154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,10 +390,20 @@
     <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Paddle.java" />
     <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/TimeDeductor.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1068">
+          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/GamePlay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="275">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -385,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="72" />
+        <state relative-caret-position="50">
+          <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -395,18 +422,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="129">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/Sound.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/abhishekpathak/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>

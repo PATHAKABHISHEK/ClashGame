@@ -10,10 +10,11 @@ public class GamePlay{
     // frame height and width
     static final int HEIGHT_FRAME = 600;
     static final int WIDTH_FRAME = 800;
+
     JFrame startFrame = new JFrame("Clash Game");
     // components of the frame
-    public GamePlay(){
-        Panel panel = new Panel();
+    public GamePlay(String name){
+        Panel panel = new Panel(name);
         startFrame.setResizable(false);
         startFrame.setVisible(false);
         startFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

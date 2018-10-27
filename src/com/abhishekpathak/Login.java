@@ -62,24 +62,23 @@ public class Login{
         loginPage.submit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(loginPage.nameField.getText() == null || loginPage.ageField.getText() == null) {
+                String name = loginPage.nameField.getText();
+                String age = loginPage.ageField.getText();
+                if(name.equals("") || age.equals("")) {
 
                     JOptionPane.showMessageDialog(loginPage.clashGameLogin,"Please Enter Name and Age Correctly !!");
                 }else {
+                    DatabaseConnection database = new DatabaseConnection();
+                    try {
+                        database.loopdatabse(name, age);
+                    }catch(Exception m){
+                        System.out.println(m.getMessage());
+                    }
                     loginPage.clashGameLogin.setVisible(false);
-                    GamePlay game = new GamePlay();
+                    GamePlay game = new GamePlay(name);
                     game.startFrame.setVisible(true);
                 }
             }
         });
-
-
-
-
-
-
     }
-
-
-
 }
